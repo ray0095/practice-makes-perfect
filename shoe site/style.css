@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+header {
+    width: 100%;
+    padding: 40px;
+    background-color:rgb(110, 214, 110);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+}
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav li {
+    color: white;
+    margin: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 60px;
+}
+
+main div {
+    width: 33.3%;
+}
+
+main img {
+    flex: 1;
+    height: 600px;
+    filter: drop-shadow(60px 120px 30px grey);
+}
+
+.shoe{
+
+}
