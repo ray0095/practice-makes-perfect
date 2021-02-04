@@ -8,16 +8,19 @@ body {
 
 header {
     width: 100%;
-    padding: 80px;
-    background-color:rgb(110, 214, 110);
+    padding: 10px;
+    background-color:rgba(110, 214, 110, 0.459);
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    position: fixed;
+    z-index: 20;
 }
 
 header h1 {
     color: white;
     text-align: center;
+    margin-left: 100px;
 }
 
 nav {
@@ -40,7 +43,7 @@ main {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 60px;
-}
+ }
 
 main div {
    flex: 25%;
@@ -58,7 +61,6 @@ main img {
 }
 
 aside {
-    flex: 25%;
     padding: 60px;
     background-color: yellow;
 }
