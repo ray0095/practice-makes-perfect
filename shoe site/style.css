@@ -1,7 +1,9 @@
 
 body {
+    position: relative;
     font-family: Arial;
-    margin: 50px;
+    margin: 0px;
+    box-sizing: border-box;
   }
 
 header {
@@ -19,6 +21,7 @@ header h1 {
 }
 
 nav {
+   margin-right: 100px;
 }
 
 
@@ -40,12 +43,26 @@ main {
 }
 
 main div {
-   flex: 33%;
+   flex: 25%;
 }
 
 main img {
     height: 600px;
+    width: 450px;
     filter: drop-shadow(60px 120px 30px grey);
+}
+
+.shoe:hover img {
+    height: 630px;
+    width: 480px;
+}
+
+aside {
+    flex: 25%;
+    padding: 60px;
+    background-color: yellow;
+}
+
 }
 
 @media (max-width: 800px) {
@@ -53,3 +70,5 @@ main img {
       flex: 100%;
     }
   }
+
+
